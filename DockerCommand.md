@@ -31,3 +31,7 @@ run container in background and return container id
  # docker run --name python-c3 -i -t -d python:3.9-slim
  or
  # docker run --name python-c3 -it -d python:3.9-slim
+
+<!-- execute a command in a running container -->
+#  docker exec -it python-c3 python
+
