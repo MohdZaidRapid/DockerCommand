@@ -14,3 +14,7 @@ to search for containers list
 # docker run imagename
 docker run hello-world
 
+# to info aboput all container ps
+docker ps -a
+docker inspect container name
+
