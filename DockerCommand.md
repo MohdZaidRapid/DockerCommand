@@ -37,3 +37,8 @@ run container in background and return container id
 
 <!-- remove container  after using it  -->
 # docker run --name python-c5 --rm -it python:3.9-slim 
+
+<!-- to stop container -->
+docker start python-c3
+docker stop python-c3
+docker restart python-c3
