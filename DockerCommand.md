@@ -35,3 +35,5 @@ run container in background and return container id
 <!-- execute a command in a running container -->
 #  docker exec -it python-c3 python
 
+<!-- remove container  after using it  -->
+# docker run --name python-c5 --rm -it python:3.9-slim 
