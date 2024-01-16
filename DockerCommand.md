@@ -57,3 +57,5 @@ docker rm container id
 <!-- environment variable -->
 # docker run --name mysql-c1 -e MYSQL_ROOT_PASSWORD=mohdzaid -d mysql 
 
+<!-- mysql shell command -->
+docker exec -it mysql-c1 mysql -u root -p
