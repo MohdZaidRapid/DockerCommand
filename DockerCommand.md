@@ -42,3 +42,18 @@ run container in background and return container id
 docker start python-c3
 docker stop python-c3
 docker restart python-c3
+****
+
+<!-- remove container -->
+docker rm container id
+
+<!-- remove image -->
+# docker rmi or with --force flag
+
+<!-- This will remove all stopped containers -->
+# docker container prune
+# docker system prune
+
+<!-- environment variable -->
+# docker run --name mysql-c1 -e MYSQL_ROOT_PASSWORD=mohdzaid -d mysql 
+
