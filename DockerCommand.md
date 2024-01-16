@@ -27,4 +27,7 @@ run container in background and return container id
 # docker run --name python-c1 -d  python:3.9-slim 
 
 
-
+ <!-- open in interactive mode it will remian in running state  -->
+ # docker run --name python-c3 -i -t -d python:3.9-slim
+ or
+ # docker run --name python-c3 -it -d python:3.9-slim
