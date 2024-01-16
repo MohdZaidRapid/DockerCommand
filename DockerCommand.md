@@ -16,5 +16,15 @@ docker run hello-world
 
 # to info aboput all container ps
 docker ps -a
-docker inspect container name
+docker inspect container name (for all info)
+
+
+<!-- exmpale -->
+# docker pull python-slim3.9
+# docker run --name python-c1 python:3.9-slim
+
+run container in background and return container id
+# docker run --name python-c1 -d  python:3.9-slim 
+
+
 
