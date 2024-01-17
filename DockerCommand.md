@@ -75,3 +75,5 @@ docker exec -it mysql-c1 mysql -u root -p
 # RUN chmod +x script.sh
 
 # CMD [ "./script.sh" ]
+
+# docker build --no-cache -t mydockerimage .
