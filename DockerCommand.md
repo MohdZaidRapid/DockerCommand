@@ -63,3 +63,15 @@ docker exec -it mysql-c1 mysql -u root -p
 <!-- port map docker to our  machine -->
 # docker run --name nginx-c1 -d -p 8080:80 nginx 
 
+# FROM ubuntu
+
+
+# WORKDIR /app
+
+
+# COPY script.sh .
+
+
+# RUN chmod +x script.sh
+
+# CMD [ "./script.sh" ]
