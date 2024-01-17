@@ -59,3 +59,7 @@ docker rm container id
 
 <!-- mysql shell command -->
 docker exec -it mysql-c1 mysql -u root -p
+
+<!-- port map docker to our  machine -->
+# docker run --name nginx-c1 -d -p 8080:80 nginx 
+
