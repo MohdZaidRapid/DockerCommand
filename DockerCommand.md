@@ -77,3 +77,7 @@ docker exec -it mysql-c1 mysql -u root -p
 # CMD [ "./script.sh" ]
 
 # docker build --no-cache -t mydockerimage .
+
+# docker volume volume_name - It is used to create volume.
+
+# docker volume Is -It is used to list volumes
