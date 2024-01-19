@@ -10,3 +10,8 @@
  <!-- user bridge -->
 # docker network create bridge --driver net1
 # docker run --name c4 -itd --network net1 alpine ash
+
+<!-- bridge default can't connect to  user bridge with ip   means both are isolated -->
+
+# in user network type ip or name
+ping -c 2 name/ip
