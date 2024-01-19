@@ -81,3 +81,12 @@ docker exec -it mysql-c1 mysql -u root -p
 # docker volume volume_name - It is used to create volume.
 
 # docker volume Is -It is used to list volumes
+
+# docker volume prune 
+# docker volume inspect 
+# docker volume rm volume name 
+# docker volume prune rmeove all
+# docker run -d --name container_name -v volume name:/app nginx -It is used to start a contaienr and create a volume if volume doesn's exists
+(used with ro)
+
+
