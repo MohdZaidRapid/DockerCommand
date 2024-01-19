@@ -15,3 +15,8 @@
 
 # in user network type ip or name
 ping -c 2 name/ip
+
+<!-- host network use host directly -->
+
+
+<!-- overlay network  multiple host  to connect different host -->
