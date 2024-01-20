@@ -24,3 +24,5 @@ docker compose --help
 # docker compose --profile rediscache down --volumes
 
 # docker compose --profile rediscache up -d
+
+# depends on servoce name (eg rcache web db)
