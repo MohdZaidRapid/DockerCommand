@@ -15,3 +15,6 @@ docker compose --help
 
 <!-- env file  -->
 # redis:${TAG}"
+
+<!--  -->
+# docker compose ls

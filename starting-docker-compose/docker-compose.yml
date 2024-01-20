@@ -8,3 +8,5 @@ services:
     image: "redis:${TAG}"
   db:
     image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=zaid123
