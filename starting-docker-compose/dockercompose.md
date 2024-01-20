@@ -20,3 +20,7 @@ docker compose --help
 # docker compose ls
 
 # docker compose --profile rediscache config
+
+# docker compose --profile rediscache down --volumes
+
+# docker compose --profile rediscache up -d

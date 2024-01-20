@@ -4,13 +4,25 @@
 services:
   web:
     image: "nginx"
+    ports:
+      - "8000:80"
+    networks:
+      - my_network
   rcache:
     image: "redis:${TAG}"
-    profiles:
-      - rediscache
+    # profiles:
+    #   - rediscache
+    networks:
+      - my_network
   db:
     image: mysql
     # environment:
     #   - MYSQL_ROOT_PASSWORD=zaid123
     env_file:
       - mysqlconfig.env
+    networks:
+      - my_network  
+
+networks:
+  my_network:
+    driver: bridge
