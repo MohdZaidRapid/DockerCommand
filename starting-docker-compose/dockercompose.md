@@ -26,3 +26,6 @@ docker compose --help
 # docker compose --profile rediscache up -d
 
 # depends on servoce name (eg rcache web db)
+
+<!-- to run cusotm name file -->
+# docker compose -f docker-compose.dev.yml up -d
