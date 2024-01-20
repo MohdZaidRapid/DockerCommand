@@ -18,3 +18,5 @@ docker compose --help
 
 <!--  -->
 # docker compose ls
+
+# docker compose --profile rediscache config

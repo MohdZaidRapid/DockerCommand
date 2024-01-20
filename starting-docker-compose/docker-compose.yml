@@ -6,6 +6,8 @@ services:
     image: "nginx"
   rcache:
     image: "redis:${TAG}"
+    profiles:
+      - rediscache
   db:
     image: mysql
     # environment:
