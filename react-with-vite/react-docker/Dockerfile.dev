@@ -1,4 +1,4 @@
-FROM node:18.17-slim as development
+FROM node:18.17-slim AS development
 
 
 WORKDIR /react-project
