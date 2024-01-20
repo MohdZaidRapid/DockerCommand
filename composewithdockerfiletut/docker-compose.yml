@@ -1,0 +1,14 @@
+# nginx
+# redis
+# mysql
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+  web:
+    image: "nginx"
+
+  db:
+    image: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=zaid123
