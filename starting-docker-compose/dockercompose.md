@@ -5,8 +5,13 @@ docker compose --help
 <!-- to create and run a container -->
 # docker compose up -d
 
+# docker compose config
+
 # docker compose exec web bash
 
 <!-- docker compose remove container  -->
 # docker compose down --volumes
 # docker compose down
+
+<!-- env file  -->
+# redis:${TAG}"

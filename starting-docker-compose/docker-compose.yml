@@ -5,6 +5,6 @@ services:
   web:
     image: "nginx"
   rcache:
-    image: "redis"
+    image: "redis:${TAG}"
   db:
     image: mysql
