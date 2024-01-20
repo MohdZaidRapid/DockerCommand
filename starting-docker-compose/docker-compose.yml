@@ -8,6 +8,10 @@ services:
       - "8000:80"
     networks:
       - my_network
+    depends_on:
+      - db  
+      - rcache
+      
   rcache:
     image: "redis:${TAG}"
     # profiles:
