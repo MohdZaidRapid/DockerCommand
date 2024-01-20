@@ -12,4 +12,5 @@ services:
     volumes:
       - .:/react-project
       - /react-project/node_modules
-    command: npm run dev    
+    command: npm run dev   
+    # command: npm run dev -- --host   
