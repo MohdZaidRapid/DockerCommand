@@ -1,0 +1,10 @@
+# nginx
+# redis
+# mysql
+services:
+  web:
+    image: "nginx"
+  rcache:
+    image: "redis"
+  db:
+    image:  mysql    
